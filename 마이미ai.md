@@ -251,8 +251,6 @@ electron-host/
   │   ├── background.js                      # Electron 메인 프로세스
   │   ├── preload.js                         # Electron 프리로드 스크립트
   │   ├── index.css                          # 글로벌 CSS
-  │   ├── 레거시백업.vue                      # 레거시 백업 파일
-  │   ├── 뭐백업인갑지.vue                    # 추가 백업 파일
   │   ├── components/                        # 재사용 가능한 Vue 컴포넌트
   │   │   ├── HelloWorld.vue                 # 헬로월드 컴포넌트
   │   │   ├── NotificationContainer.vue      # 알림 컨테이너
@@ -307,16 +305,6 @@ electron-host/
   │   ├── main.js                            # 메인 서버 파일
   │   ├── server_context_backup.js           # 서버 컨텍스트 백업
   │   ├── aitool_host_data.sqlite            # 메인 데이터베이스
-  │   ├── 컨텍스트수정중aitool_host_data.sqlite # 수정 중인 DB
-  │   ├── ______________aitool_host_data.sqlite # DB 백업들
-  │   ├── ___________aitool_host_data.sqlite
-  │   ├── _________aitool_host_data.sqlite
-  │   ├── _______aitool_host_data.sqlite
-  │   ├── ______aitool_host_data.sqlite
-  │   ├── _____aitool_host_data.sqlite
-  │   ├── ____aitool_host_data.sqlite
-  │   ├── __aitool_host_data.sqlite
-  │   ├── _aitool_host_data.sqlite
   │   ├── a2a/                               # A2A 프로토콜 구현
   │   │   ├── client.js                      # A2A 클라이언트
   │   │   ├── error.js                       # 에러 핸들링
@@ -420,17 +408,13 @@ GOOGLE_API_KEY=your_google_api_key
 ANTHROPIC_API_KEY=your_anthropic_api_key
 OPENAI_API_KEY=your_openai_api_key
 
-# 서버 설정
-PORT=8282                      # Express.js 서버 포트
-WEBSOCKET_PORT=8282           # WebSocket 서버 포트
-HOST_AGENT_PORT=10000         # A2A 호스트 에이전트
 
 # 데이터베이스
 DB_PATH=./data/aitool_host_data.sqlite
 
 # 보안
 JWT_SECRET=your_jwt_secret
-BCRYPT_ROUNDS=12
+BCRYPT_ROUNDS
 
 # 업로드 설정
 UPLOAD_MAX_SIZE=50MB
@@ -440,7 +424,7 @@ UPLOAD_PATH=./uploads
 # 프로덕션 설정
 NODE_ENV=production
 SERVER_HOST=your_server_ip
-BASE_URL=http://your_server_ip:8282
+BASE_URL=http://your_server_ip
 ```
 
 ---
@@ -616,5 +600,3 @@ npm run dev
 ```
 
 ---
-
-**Vue.js, Electron, Docker 그리고 최신 AI 기술로 ❤️를 담아 제작되었습니다**
