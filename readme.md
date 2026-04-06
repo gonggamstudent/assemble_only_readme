@@ -20,6 +20,7 @@
 | [🎯 웹 광고 모듈](웹광고모듈.md) | 범용 독립형 광고 관리 시스템 | React · Vanilla JS |
 | [🗑️ 욕받이](욕받이.md) | 감정 쓰레기통 AI 심리상담 웹앱 | React · OpenAI API |
 | [✨ AI Prompt Generator](프롬프트생성.md) | 한국어 → AI 이미지 프롬프트 변환 GUI | Python · Tkinter |
+| [🏠 Sweet Home](스윗홈.md) | macOS를 위한 선언형 시스템 환경 격리 프레임워크 | Nix store + nix-darwin |
 
 ---
 
