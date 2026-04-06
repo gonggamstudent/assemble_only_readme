@@ -53,7 +53,6 @@ Sweet Home의 설계 철학은 하나의 비유에서 출발해요.
 | 설정 버전 관리 | **Git + GitHub (Private)** |
 
 **환경**
-- 기기: MacBook Pro M5 (2026)
 - OS: macOS Tahoe 26
 - 아키텍처: aarch64-darwin
 
@@ -169,6 +168,7 @@ sudo darwin-rebuild switch --flake /etc/nix-darwin
 | `vim` | 텍스트 편집기 |
 | `gh` | GitHub CLI |
 | `ollama` | 로컬 LLM 실행 도구 |
+| `LM studio` | 로컬 LLM 실행 도구 |
 | `jupyter` | Jupyter Notebook |
 
 ### GUI 앱 (Homebrew Cask)
